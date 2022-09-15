@@ -50,6 +50,7 @@ function App() {
   }
 
     //2. read // 삼항연산자를 사용하여 바로 목록 출력  
+    // key 값이 유일하도록 수정해야함
     const itemListTemp = items.length >0 && (<Paper>
       <List>
         {items.map((item)=>(<Todo 
